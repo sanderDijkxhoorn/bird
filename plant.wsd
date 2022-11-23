@@ -1,0 +1,21 @@
+@startuml name Animal
+
+class Animal {
+    String name
+    int birdCode
+    bool canFly
+}
+
+class FlightlessBird extends Bird {
+    String name
+    int birdCode
+    bool canFly
+}
+
+class FlyingBird extends Bird {
+    String name
+    int birdCode
+    bool canFly
+}
+
+@enduml
